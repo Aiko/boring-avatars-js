@@ -33,7 +33,7 @@ const generateData = (name: string, colors: string[]) => {
   return data;
 }
 
-export default (name: string, colors: string[], size: number=120, square: boolean=true) => {
+export default (name: string, colors: string[]=["#F6F6F6","#FFFFFF","#2B4192","#486FFF","#486FFF"], size: number=120, square: boolean=true) => {
   const data = generateData(name, colors)
 
   return `
