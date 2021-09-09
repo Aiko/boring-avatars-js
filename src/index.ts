@@ -1,5 +1,1 @@
-import beam from "./avatars/beam"
-
-export default {
-  beam,
-}
+const beam = require('./avatars/beam')
