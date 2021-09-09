@@ -1,5 +1,5 @@
 const beam = require('./avatars/beam')
 
-export {
+module.exports = {
     beam,
 }
